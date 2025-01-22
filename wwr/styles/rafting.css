@@ -1,0 +1,46 @@
+:root{
+    --primary-color: #476278;
+    --secondary-color: #FDE059;
+    --accent1-color: #E28112;
+    --accent2-color: #E2DFDD;
+    --heading-font: "Merriweather", arial, serif;
+    --text-font: "Poppins", serif, arial;
+
+}
+
+body{
+    max-width: 900px;
+}
+
+h1 {
+    color: #E28112;
+    font-family: var(--heading-font);
+    position: absolute;
+}
+
+p {
+    font-family: var(--text-font);
+    color: #476278;
+}
+
+a{
+    text-decoration: none;
+}
+
+article img{
+    float: right;
+    width: 200px;
+    border: 5px solid rgb(160, 159, 159);
+    height: auto;
+}
+
+.hero{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+}
