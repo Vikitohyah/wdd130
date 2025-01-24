@@ -1,7 +1,7 @@
 :root{
     --primary-color: #476278;
-    --secondary-color: #FDE059;
-    --accent1-color: #E28112;
+    --secondary-color: #E28112;
+    --accent1-color: #FDE059;
     --accent2-color: #E2DFDD;
 }
 
@@ -18,17 +18,17 @@ body{
 }
 
 h1 {
-    color: #E28112;
+    color: var(--secondary-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2{
-    color: #E28112;
+    color: var(--secondary-color);
 }
 
 a{
     text-decoration: none;
-    color: #476278;
+    color: var(--primary-color);
 }
 
 .hero{
@@ -58,7 +58,7 @@ a{
 }
 
 .hero article p{
-    color: #E2DFDD;
+    color: var(--accent2-color);
 }
 
 .hero article img{
