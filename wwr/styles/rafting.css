@@ -1,7 +1,7 @@
 :root{
     --primary-color: #476278;
-    --secondary-color: #E28112;
-    --accent1-color: #FDE059;
+    --secondary-color: #FDE059;
+    --accent1-color: #E28112;
     --accent2-color: #E2DFDD;
 }
 
@@ -21,7 +21,7 @@ header{
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 10px 20px;
 }
 
@@ -40,6 +40,7 @@ nav {
 nav a {
     font-weight: bold;
     font-size: 1rem;
+    color: #FDE059;
 }
 h1 {
     color: var(--secondary-color);
@@ -47,7 +48,7 @@ h1 {
 }
 
 h2{
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 a{
@@ -63,7 +64,7 @@ a{
 }
 
 .history img {
-    width: 100px;
+    width: 100%;
     height: auto;
 }
 
@@ -89,10 +90,12 @@ a{
 .hero article{
     position: absolute;
     top: 30%;
-    left: 7%;
+    left: 5%;
     padding: 15px;
     background: rgba(38, 75, 179, 0.5);
     margin-top: 20px;
+    max-width: 90%;
+    box-sizing: border-box;
 }
 
 .hero article p{
@@ -101,7 +104,7 @@ a{
 
 .hero article img{
     float: right;
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
@@ -135,7 +138,7 @@ footer {
     align-items: center;
     background-color: var(--primary-color);
     padding: 10px 20px;
-    color: white;
+    color: var(--secondary-color);
 }
 
 footer nav {
