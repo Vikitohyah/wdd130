@@ -25,56 +25,60 @@
     </header>
 
     <main>
-        <section class="contact-info">
-            <address>
-              <p>123 Rafting Way, Lagos, RC 45678</p>
-              <p>Phone: 07044203764</p>
-              <p>Email: contact@raftingtravel.com</p>
-            </address>
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d253682.62283124574!2d3.28395955!3d6.548055099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738853631931!5m2!1sen!2sng" 
-              width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </section>
-          
-        <section class="team">
-            <figure>
-              <img src="images/happy worker.jpg" alt="Smiling employee 1">
-              <figcaption>Jane Bliss - Tour Guide</figcaption>
-            </figure>
-            <figure>
-              <img src="images/happy worker2.jpg" alt="Smiling employee 2">
-              <figcaption>Brie Smith - Customer Service</figcaption>
-            </figure>
-            <figure>
-              <img src="images/happy worker3.jpg" alt="Smiling employee 3">
-              <figcaption>Emory Johnson - Manager</figcaption>
-            </figure>
-        </section>
+      <h1 id="contact-header">
+        Let's Make a Splash! Contact Us Today
+      </h1>
 
-        <section>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-              
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-              
-                <fieldset>
-                  <legend>Purpose of Message:</legend>
-                  <label><input type="radio" name="purpose" value="inquiry"> General Inquiry</label>
-                  <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                  <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-                </fieldset>
-              
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required placeholder="Leave your message "></textarea>
-              
-                <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
-              
-                <button type="submit">Send Message</button>
-              </form>
-        </section>
+      <section class="contact-info">
+        <address>
+          <p>123 Rafting Way, Lagos, RC 45678</p>
+          <p>Phone: 07044203764</p>
+          <p>Email: contact@raftingtravel.com</p>
+        </address>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d253682.62283124574!2d3.28395955!3d6.548055099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738853631931!5m2!1sen!2sng" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+      
+    <section class="team">
+        <figure>
+          <img src="images/happy worker.jpg" alt="Smiling employee 1">
+          <figcaption>Jane Bliss - Tour Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/happy worker2.jpg" alt="Smiling employee 2">
+          <figcaption>Brie Smith - Customer Service</figcaption>
+        </figure>
+        <figure>
+          <img src="images/happy worker3.jpg" alt="Smiling employee 3">
+          <figcaption>Emory Johnson - Manager</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <fieldset id="purpose">
+              <legend>Purpose of Message:</legend>
+              <label><input type="radio" name="purpose" value="inquiry"> General Inquiry</label>
+              <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+              <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+            </fieldset>
+          
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Leave your message "></textarea>
+          
+            <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
+          
+            <button type="submit" id="submit">Send Message</button>
+          </form>
+    </section>
           
     </main>
 
